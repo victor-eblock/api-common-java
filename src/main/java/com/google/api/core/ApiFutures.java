@@ -37,9 +37,9 @@ import com.google.common.util.concurrent.AsyncFunction;
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.Futures;
 import com.google.common.util.concurrent.ListenableFuture;
+import jakarta.annotation.Nullable;
 import java.util.List;
 import java.util.concurrent.Executor;
-import javax.annotation.Nullable;
 
 /** Static utility methods for the {@link ApiFuture} interface. */
 public final class ApiFutures {
